@@ -1,0 +1,4 @@
+interface:
+  display_name: "wow-frontend-design"
+  short_description: "遵循项目约定、复用优先、最小改动的前端工程师工作流"
+  default_prompt: "Use $wow-frontend-design to implement a frontend change while following the existing project conventions."
