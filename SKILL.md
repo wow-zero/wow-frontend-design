@@ -40,7 +40,7 @@ description: 项目首选前端工程师 Skill。用于 Vue、Nuxt、React、Nex
 3. 查找可复用实现。新增组件、Hook、Composable、Service、类型、工具函数前，先确认项目中是否已有类似能力。
 4. 制定低风险方案。明确改哪些文件、复用什么、风险在哪里、是否影响 SSR/SEO/响应式/权限。
 5. 实施最小范围修改。只改与需求直接相关的文件，不做顺手重构。
-6. 验证结果。先看 `package.json` scripts，再运行项目已有的 typecheck、lint、test、build 或相关局部检查。
+6. 验证结果。先看 `package.json` scripts，再运行项目已有的 typecheck、lint、test、build 或相关局部检查。涉及功能验收或浏览器验证时，优先复用已有开发环境服务；没有可复用服务时才启动新服务，并在验收后停止本次自动启动的服务。
 
 ## 按需读取 References
 
